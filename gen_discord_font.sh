@@ -8,17 +8,19 @@ fi
 
 INPUT_FILE="$1"
 
+DISCORD_DIR="Overwrite/var/containers/Bundle/Application/%AppUUID{'com.hammerandchisel.discord', 'Bundle'}%/Discord.app"
+
 # Create the required folder structure
-mkdir -p "Overwrite/var/containers/Bundle/Application/com.hammerandchisel.discord/Discord.app"
+mkdir -p "$DISCORD_DIR"
 
 # Copy the input file to the specified font files
-cp "$INPUT_FILE" "Overwrite/var/containers/Bundle/Application/com.hammerandchisel.discord/Discord.app/ggsans-400-normal.ttf"
-cp "$INPUT_FILE" "Overwrite/var/containers/Bundle/Application/com.hammerandchisel.discord/Discord.app/ggsans-400-normalitalic.ttf"
-cp "$INPUT_FILE" "Overwrite/var/containers/Bundle/Application/com.hammerandchisel.discord/Discord.app/ggsans-500-medium.ttf"
-cp "$INPUT_FILE" "Overwrite/var/containers/Bundle/Application/com.hammerandchisel.discord/Discord.app/ggsans-600-semibold.ttf"
-cp "$INPUT_FILE" "Overwrite/var/containers/Bundle/Application/com.hammerandchisel.discord/Discord.app/ggsans-700-bold.ttf"
-cp "$INPUT_FILE" "Overwrite/var/containers/Bundle/Application/com.hammerandchisel.discord/Discord.app/ggsans-700-bolditalic.ttf"
-cp "$INPUT_FILE" "Overwrite/var/containers/Bundle/Application/com.hammerandchisel.discord/Discord.app/ggsans-800-extrabold.ttf"
+cp "$INPUT_FILE" "$DISCORD_DIR/ggsans-400-normal.ttf"
+cp "$INPUT_FILE" "$DISCORD_DIR/ggsans-400-normalitalic.ttf"
+cp "$INPUT_FILE" "$DISCORD_DIR/ggsans-500-medium.ttf"
+cp "$INPUT_FILE" "$DISCORD_DIR/ggsans-600-semibold.ttf"
+cp "$INPUT_FILE" "$DISCORD_DIR/ggsans-700-bold.ttf"
+cp "$INPUT_FILE" "$DISCORD_DIR/ggsans-700-bolditalic.ttf"
+cp "$INPUT_FILE" "$DISCORD_DIR/ggsans-800-extrabold.ttf"
 
 echo "Files copied successfully!"
 
