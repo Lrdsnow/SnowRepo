@@ -8,12 +8,12 @@
         {
             "name": "Comic-SansCord",
             "bundleid": "uwu.lrdsnow.sansCord",
-            "banner":"Banners/sansCordBanner.png"
+            "banner":"assets/sansCordBanner.png"
         },
         {
             "name": "14 Res",
             "bundleid": "uwu.lrdsnow.14res",
-            "banner":"Banners/14resBanner.png"
+            "banner":"assets/14resBanner.png"
         }
     ],
     "packages": [
