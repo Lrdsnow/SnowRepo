@@ -1,0 +1,47 @@
+{
+    "spec":"1.0",
+    "repotype":"purekfdextended",
+    "name": "SnowRepo",
+    "description": "Lrdsnow's Tweak Repo!",
+    "icon": "assets/Icon.png",
+    "featured": [
+        {
+            "name": "Comic-SansCord",
+            "bundleid": "uwu.lrdsnow.sansCord",
+            "banner":"Banners/sansCordBanner.png"
+        },
+        {
+            "name": "14 Res",
+            "bundleid": "uwu.lrdsnow.14res",
+            "banner":"Banners/14resBanner.png"
+        }
+    ],
+    "packages": [
+        {
+            "name": "Comic-SansCord",
+            "bundleid": "uwu.lrdsnow.sansCord",
+            "author": "Lrdsnow",
+            "description": "Comic sans for your Discord!",
+            "long_description":"Curse your discord!",
+            "version": "1.0",
+            "icon": "assets/sansCord.png",
+            "banner":"assets/sansCordBanner.png",
+            "path": "pkgs/uwu.lrdsnow.sansCord.purekfd",
+            "screenshots":[],
+            "varOnly":true
+        },
+        {
+            "name": "14 Res",
+            "bundleid": "uwu.lrdsnow.14res",
+            "author": "Lrdsnow",
+            "description": "iPhone 14 Resolution!",
+            "long_description":"does not work (yet)",
+            "version": "1.0",
+            "icon": "assets/14res.png",
+            "banner":"assets/14resBanner.png",
+            "path": "pkgs/uwu.lrdsnow.14res.purekfd",
+            "screenshots":[],
+            "varOnly":true
+        }
+    ]
+}
