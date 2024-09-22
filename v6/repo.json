@@ -2,7 +2,7 @@
     "spec":"1.0",
     "repotype":"purekfdextended",
     "name": "SnowRepo",
-    "description": "Lrdsnow's Tweak Repo!",
+    "description": "Lrdsnow's Tweak Repo! (for testing)",
     "icon": "assets/Icon.png",
     "featured": [
         {
@@ -22,7 +22,7 @@
             "bundleid": "uwu.lrdsnow.sansCord",
             "author": "Lrdsnow",
             "description": "Comic sans for your Discord!",
-            "long_description":"Curse your discord!",
+            "long_description":"Curse your discord! (doesnt work, will crash ur discord)",
             "version": "1.0",
             "icon": "assets/sansCord.png",
             "banner":"assets/sansCordBanner.png",
