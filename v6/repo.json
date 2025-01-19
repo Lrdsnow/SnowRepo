@@ -42,6 +42,19 @@
             "path": "pkgs/uwu.lrdsnow.14res.purekfd",
             "screenshots":[],
             "varOnly":true
+        },
+        {
+            "name": "RdarFix",
+            "bundleid": "uwu.lrdsnow.rdarFix",
+            "author": "Lrdsnow",
+            "description": "Fixes the rdar bar (untested)",
+            "long_description":"Fixes the rdar bar (untested)",
+            "version": "1.0",
+            "icon": "assets/14res.png",
+            "banner":"assets/14resBanner.png",
+            "path": "pkgs/uwu.lrdsnow.rdarFix.purekfd",
+            "screenshots":[],
+            "varOnly":true
         }
     ]
 }
